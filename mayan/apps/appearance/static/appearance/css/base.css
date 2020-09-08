@@ -418,6 +418,19 @@ a i {
     padding: 1px 5px 0px;
 }
 
+/* Bootstrap button fill override */
+.btn-default {
+    color: #ffffff;
+    background-color: #586e6f;
+    border-color: #586e6f;
+}
+
+.btn-default:active:hover, .btn-default.active:hover, .btn-default:hover, .open>.dropdown-toggle.btn-default:hover, .btn-default:active:focus, .btn-default.active:focus, .open>.dropdown-toggle.btn-default:focus, .btn-default:active.focus, .btn-default.active.focus, .open>.dropdown-toggle.btn-default.focus {
+    color: #ffffff;
+    background-color: #475b5c;
+    border-color: #475b5c;
+}
+
 /*
  * Top navigation
  * Hide default border to remove 1px line.
@@ -630,4 +643,9 @@ a i {
 
 .dropdown-menu > li > a {
     color: #585e5e;
+}
+
+/* Overwrite bootstrap link color */
+a, a:hover, a:focus {
+    color: #03735d;
 }
